@@ -1,9 +1,11 @@
 module.exports = {
   branchPrefix: 'renovate/',
-  dryRun: true,
   onboarding: false,
   platform: 'github',
   includeForks: true,
+  repositories: [
+    'codeMonkeysBe/renodepend'
+  ],
   packageRules: [
     {
       description: 'lockFileMaintenance',
