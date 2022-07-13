@@ -1,5 +1,6 @@
 {
   "branchPrefix": "renovate/",
+  "recreateClosed": true,
   "platform": "github",
   "includeForks": true,
   "repositories": [
