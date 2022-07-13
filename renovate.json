@@ -1,4 +1,4 @@
-{{
+{
   "branchPrefix": "renovate/",
   "platform": "github",
   "includeForks": true,
