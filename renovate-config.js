@@ -1,6 +1,5 @@
 module.exports = {
   branchPrefix: 'renovate/',
-  onboarding: false,
   platform: 'github',
   includeForks: true,
   repositories: [
