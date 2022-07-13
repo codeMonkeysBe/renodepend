@@ -13,6 +13,8 @@ jobs:
         with:
           configurationFile: renovate-config.js
           token: ${{ secrets.RENOVATE_TOKEN }}
+        env:
+          LOG_LEVEL: 'debug'
     # - name: report back
     #   1. Use GH api to get results from renovate (see get-info.sh)
     #   2. Push results to our own datastore
