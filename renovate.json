@@ -5,6 +5,7 @@
   "repositories": [
     "codeMonkeysBe/renodepend"
   ],
+  "labels": ["currentVersion:{{currentVersion}}", "newVersion:{{newVersion}}"],
   "packageRules": [
     {
       "description": "lockFileMaintenance",
